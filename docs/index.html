@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pawn Shop Landing Page Demo | Phoenix</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Free, Bootstrap-built landing page with scroll animations">
+  <meta name="author" content="PictureElement (Marios Sofokleous)">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <link rel="shortcut icon" href="favicon32.png">
+</head>
+<body>
+
+  <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-white container">
+    <a class="navbar-brand" href="#">Phoenix</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#store-finder">Store Finder</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="hero container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 hero-left">
+        <img src="media/hero@1x.jpg" srcset="media/hero@1x.jpg 1x, media/hero@2x.jpg 2x">
+      </div>
+      <div class="col-lg-6 hero-right">
+        <h1>Pawnbroking Made Easy</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut impedit error nisi, enim laudantium consequuntur, mollitia amet eligendi accusamus dolorem voluptate rerum animi libero nihil perspiciatis ipsam, similique debitis laboriosam.</p>
+        <button type="button" class="btn btn-outline-dark btn-bottom">About Us</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="banner-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 banner-0-left">
+          <h2>The Trusted Way For Cash Today</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ut ratione doloribus, voluptatum modi libero officia, quidem adipisci ab, quisquam tempore necessitatibus tenetur sapiente est! Rerum sint et suscipit iure.</p>
+          <button type="button" class="btn btn-outline-light btn-bottom">Learn More</button>
+        </div>
+        <div class="col-md-7"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner-1">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="media/banner-1@1x.png" srcset="media/banner-1@1x.png 1x, media/banner-1@2x.png 2x">
+        </div>
+        <div class="col-md-6 banner-1-right">
+          <h2>We Buy Any Gold</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, reiciendis debitis. Aspernatur maxime optio est nemo numquam obcaecati fugit, recusandae id earum itaque, necessitatibus laboriosam. Laboriosam accusantium assumenda sint porro?</p>
+          <button type="button" class="btn btn-outline-dark btn-bottom">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner-2">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 banner-2-left order-2 order-md-1">
+          <h2>Hassle-Free Cash</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quaerat quam adipisci error ducimus, natus saepe reprehenderit, assumenda id fugiat eligendi dolorem, commodi unde sunt vel veniam mollitia harum enim?</p>
+          <button type="button" class="btn btn-outline-dark btn-bottom">Learn More</button>
+        </div>
+        <div class="col-md-6 order-1 order-md-2">
+          <img src="media/banner-2@1x.png" srcset="media/banner-2@1x.png 1x, media/banner-2@2x.png 2x">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORE FINDER -->
+  <section id="store-finder" class="store-finder">
+    <div class="container">
+      <h2 class="mb-3">Store Finder</h2>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="new-york-tab" data-toggle="tab" href="#new-york" role="tab" aria-controls="new york" aria-selected="true">New York</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="london-tab" data-toggle="tab" href="#london" role="tab" aria-controls="london" aria-selected="false">London</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="tokyo-tab" data-toggle="tab" href="#tokyo" role="tab" aria-controls="tokyo" aria-selected="false">Tokyo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="berlin-tab" data-toggle="tab" href="#berlin" role="tab" aria-controls="berlin" aria-selected="false">Berlin</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane active show fade mt-3" id="new-york" role="tabpanel" aria-labelledby="new-york-tab">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="nav flex-column nav-pills" id="v-pills-tab-1" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab-1" data-toggle="pill" href="#v-pills-home-1" role="tab" aria-controls="v-pills-home-1" aria-selected="true">Shop 1</a>
+                <a class="nav-link" id="v-pills-profile-tab-1" data-toggle="pill" href="#v-pills-profile-1" role="tab" aria-controls="v-pills-profile-1" aria-selected="false">Shop 2</a>
+                <a class="nav-link" id="v-pills-messages-tab-1" data-toggle="pill" href="#v-pills-messages-1" role="tab" aria-controls="v-pills-messages-1" aria-selected="false">Shop 3</a>
+                <a class="nav-link" id="v-pills-settings-tab-1" data-toggle="pill" href="#v-pills-settings-1" role="tab" aria-controls="v-pills-settings-1" aria-selected="false">Shop 4</a>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div class="tab-content" id="v-pills-tabContent-1">
+                <div class="tab-pane active show fade" id="v-pills-home-1" role="tabpanel" aria-labelledby="v-pills-home-tab-1">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 1</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop1@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile-1" role="tabpanel" aria-labelledby="v-pills-profile-tab-1">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 2</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop2@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages-1" role="tabpanel" aria-labelledby="v-pills-messages-tab-1">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 3</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop3@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings-1" role="tabpanel" aria-labelledby="v-pills-settings-tab-1">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 4</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop4@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade mt-3" id="london" role="tabpanel" aria-labelledby="london-tab">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="nav flex-column nav-pills" id="v-pills-tab-2" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab-2" data-toggle="pill" href="#v-pills-home-2" role="tab" aria-controls="v-pills-home-2" aria-selected="true">Shop 5</a>
+                <a class="nav-link" id="v-pills-profile-tab-2" data-toggle="pill" href="#v-pills-profile-2" role="tab" aria-controls="v-pills-profile-2" aria-selected="false">Shop 6</a>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div class="tab-content" id="v-pills-tabContent-2">
+                <div class="tab-pane active show fade" id="v-pills-home-2" role="tabpanel" aria-labelledby="v-pills-home-tab-2">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 5</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop5@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile-2" role="tabpanel" aria-labelledby="v-pills-profile-tab-2">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 6</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop6@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade mt-3" id="tokyo" role="tabpanel" aria-labelledby="tokyo-tab">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="nav flex-column nav-pills" id="v-pills-tab-3" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab-3" data-toggle="pill" href="#v-pills-home-3" role="tab" aria-controls="v-pills-home-3" aria-selected="true">Shop 7</a>
+                <a class="nav-link" id="v-pills-profile-tab-3" data-toggle="pill" href="#v-pills-profile-3" role="tab" aria-controls="v-pills-profile-3" aria-selected="false">Shop 8</a>
+                <a class="nav-link" id="v-pills-messages-tab-3" data-toggle="pill" href="#v-pills-messages-3" role="tab" aria-controls="v-pills-messages-3" aria-selected="false">Shop 9</a>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div class="tab-content" id="v-pills-tabContent-3">
+                <div class="tab-pane active show fade" id="v-pills-home-3" role="tabpanel" aria-labelledby="v-pills-home-tab-3">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 7</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop7@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile-3" role="tabpanel" aria-labelledby="v-pills-profile-tab-3">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 8</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop8@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages-3" role="tabpanel" aria-labelledby="v-pills-messages-tab-3">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 9</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop9@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade mt-3" id="berlin" role="tabpanel" aria-labelledby="berlin-tab">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="nav flex-column nav-pills" id="v-pills-tab-4" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab-4" data-toggle="pill" href="#v-pills-home-4" role="tab" aria-controls="v-pills-home-4" aria-selected="true">Shop 10</a>
+                <a class="nav-link" id="v-pills-profile-tab-4" data-toggle="pill" href="#v-pills-profile-4" role="tab" aria-controls="v-pills-profile-4" aria-selected="false">Shop 11</a>
+                <a class="nav-link" id="v-pills-messages-tab-4" data-toggle="pill" href="#v-pills-messages-4" role="tab" aria-controls="v-pills-messages-4" aria-selected="false">Shop 12</a>
+                <a class="nav-link" id="v-pills-settings-tab-4" data-toggle="pill" href="#v-pills-settings-4" role="tab" aria-controls="v-pills-settings-4" aria-selected="false">Shop 13</a>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div class="tab-content" id="v-pills-tabContent-4">
+                <div class="tab-pane active show fade" id="v-pills-home-4" role="tabpanel" aria-labelledby="v-pills-home-tab-4">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 10</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop10@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile-4" role="tabpanel" aria-labelledby="v-pills-profile-tab-4">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 11</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop11@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages-4" role="tabpanel" aria-labelledby="v-pills-messages-tab-4">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 12</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop12@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings-4" role="tabpanel" aria-labelledby="v-pills-settings-tab-4">
+                  <div class="card" style="width: 100%;">
+                    <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.1698114956!2d-73.9746451!3d40.7445922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2s!4v1532035315527" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <address>
+                        <strong>Phoenix - Shop 13</strong><br>
+                        405 E 42nd Street<br>
+                        New York, NY 10017<br>
+                        USA<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> shop13@phoenix.com
+                      </address>
+                      <a href="#" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img alt="First slide" class="d-block mx-auto rounded-circle img-thumbnail" src="media/testimonial-1@1x.jpg" srcset="media/testimonial-1@1x.jpg 1x, media/testimonial-1@2x.jpg 2x">
+              <blockquote class="mt-4 text-center">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Aenean et consequat augue. Morbi condimentum interdum magna 
+                  sit amet pulvinar.
+                </p>
+                <footer class="blockquote-footer mt-4">Michael Freemon, <cite title="Source Title"><a href="#">The New Yorker</a></cite></footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <img alt="Second slide" class="d-block mx-auto rounded-circle img-thumbnail" src="media/testimonial-2@1x.jpg" srcset="media/testimonial-2@1x.jpg 1x, media/testimonial-2@2x.jpg 2x">
+              <blockquote class="mt-4 text-center">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Aenean et consequat augue. Morbi condimentum interdum magna 
+                  sit amet pulvinar.
+                </p>
+                <footer class="blockquote-footer mt-4">Marie Lu, <cite title="Source Title"><a href="#">Country Living</a></cite></footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <img alt="Third slide" class="d-block mx-auto rounded-circle img-thumbnail" src="media/testimonial-3@1x.jpg" srcset="media/testimonial-3@1x.jpg 1x, media/testimonial-3@2x.jpg 2x">
+              <blockquote class="mt-4 text-center">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Aenean et consequat augue. Morbi condimentum interdum magna 
+                  sit amet pulvinar.
+                </p>
+                <footer class="blockquote-footer mt-4">Jason Wu</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <h2>Contact Us</h2>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="inputName" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="inputTextarea" placeholder="Enter Message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <a id="back-to-top" class="back-to-top" href="#navbar">
+      <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </a>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+            <p>
+              <a class="navbar-brand" href="#">Phoenix</a>
+            </p>
+            <p>
+              Pawn Broker's License # PB.104166.000<br>
+              Member of the Colateral Loan Brokers Association of New York<br>
+              Member of the National Pawnbrokers Association
+            </p>
+        </div>
+        <div class="col-md-6 text-md-right mt-5">
+            <img alt="national pawnbrokers association logo" src="media/npa-logo@1x.jpg" srcset="media/npa-logo@1x.jpg 1x, media/npa-logo@2x.jpg 2x">
+            <img alt="colateral loan brokers association of new york logo" src="media/clany-logo@1x.png" srcset="media/clany-logo@1x.png 1x, media/clany-logo@2x.png 2x">
+            <div class="social mt-5 ml-4 ml-md-0 mr-md-4">
+              <a href="#"><i class="fa-social fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa-social fa fa-google-plus ml-4" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa-social fa fa-instagram ml-4" aria-hidden="true"></i></a>
+            </div>
+        </div>
+      </div>
+      <p class="mt-5 mb-0 mt-md-0">
+        © 2018 Phoenix Inc. All Rights Reserved.<br>
+        Designed &amp; Developed by <a href="https://pictureelement.github.io/portfolio-2/">PictureElement</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.hero-left', { duration: 1000, origin: 'bottom', distance: '100px', viewFactor: 0.1 });
+    sr.reveal('.hero-right', { duration: 1000, origin: 'bottom', distance: '100px', viewFactor: 0.1 });
+    sr.reveal('.banner-0-left', { duration: 1000, origin: 'bottom', distance: '100px', viewFactor: 0.1 });
+    sr.reveal('.banner-1-right', { duration: 1000, origin: 'bottom', distance: '100px', viewFactor: 0.1 });
+    sr.reveal('.banner-2-left', { duration: 1000, origin: 'bottom', distance: '100px', viewFactor: 0.1 });
+  </script>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+          inline: 'start'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
