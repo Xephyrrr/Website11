@@ -1,11 +1,16 @@
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 20px;
   font-weight: 400;
+}
+
+.nav-item {
+  font-size: 22px;
 }
 
 .navbar-brand {
   font-family: 'Poiret One', cursive;
-  font-size: 25px;
+  font-size: 50px;
   color: black !important;
 }
 
@@ -39,7 +44,7 @@ img {
 }
 
 .banner-1 {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .banner-1 p {
@@ -64,7 +69,7 @@ img {
 }
 
 .store-finder {
-  padding: 100px 0;
+  padding: 200px 0;
 }
 
 .store-finder .container {
