@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Free, Bootstrap-built landing page with scroll animations">
+  <meta name="author" content="PictureElement (Marios Sofokleous)">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <link rel="shortcut icon" href="favicon32.png">
+</head> 
+<body>
+  <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-white container">
+    <a class="navbar-brand" href="#">Lakeview Pawn</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+		
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="hero container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 hero-left">
+        <img src="media/FFL1x.jpg" alt="">
+      </div>
+      <div class="col-lg-6 hero-right">
+        <h1>FFL</h1>
+        <p>FFL Document for shipping</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <a id="back-to-top" class="back-to-top" href="#navbar">
+      <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </a>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+            <p>
+              <a class="navbar-brand" href="#">Lakeview Pawn</a>
+            </p>
+            <p>
+              7608 Main St, The Colony, TX 75056<br>
+              (972) 625-8676<br>
+			   Mon-Sat 9AM-5PM<br>
+            </p>
+        </div>
+			</div>
+			<a href="https://www.facebook.com/Lakeview-Pawn-Shop-116580448402249/"><i class="fa-social fa fa-facebook" aria-hidden="true"></i> <div style="padding-top: 10px;"> <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=131&layout=button&action=like&size=large&share=true&height=65&appId" width="131" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> </div> </a>
+            </div>
+
+        </div>
+      </div>
+      <p class="mt-5 mb-0 mt-md-0">
+       
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.hero-left', { duration: 1000, origin: 'bottom', distance: '100px', viewFactor: 0.1 });
+    sr.reveal('.hero-right', { duration: 1000, origin: 'bottom', distance: '100px', viewFactor: 0.1 });
+    sr.reveal('.banner-0-left', { duration: 1000, origin: 'bottom', distance: '100px', viewFactor: 0.1 });
+    sr.reveal('.banner-1-right', { duration: 1000, origin: 'bottom', distance: '100px', viewFactor: 0.1 });
+    sr.reveal('.banner-2-left', { duration: 1000, origin: 'bottom', distance: '100px', viewFactor: 0.1 });
+  </script>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+          inline: 'start'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
